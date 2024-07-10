@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(217, 237, 213);
+}
+
+main{
+    width: 720px;
+    height: 900px;
+    background: none;
+    margin: auto;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.Text:hover{
+    font-family: monospace;
+    color: black;
+    font-size: 15px;
+}
+
+.Text{
+    font-family: monospace;
+    text-shadow: 2px 2px 7px rgb(176, 168, 168);
+    color: rgb(8, 22, 34);
+}
+
+
+
+main .left{
+    float: left;
+
+}
+
+main .left .Tranform-Rotate{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(71, 243, 28);
+    margin: auto;
+    border-radius: 1rem;
+    transform: rotate(20deg);
+    filter: drop-shadow(10px 10px 4px rgb(86, 86, 80));
+
+
+}
+
+main .left .Tranform-Skew{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(23, 234, 206);
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: 7rem;
+    transform: skewY(20deg);
+    filter: drop-shadow(10px 10px 4px rgb(86, 86, 80));
+
+
+
+}
+
+
+main .left .Tranform-Scale{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(234, 28, 83);
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: 7rem;
+    transform: scale(1.5);
+    filter: drop-shadow(10px 10px 4px rgb(86, 86, 80));
+
+
+}
+
+
+main .left h3{
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    text-align: center;
+
+
+}
+
+
+
+
+/* right */
+main .rihgt{
+    float: right;
+
+}
+
+main .rihgt .Tranform-Rotate{
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    border-radius: 1rem;
+    background-color: rgb(114, 235, 21);
+    filter: drop-shadow(2px 1px 1px rgb(60, 60, 37));
+
+
+}
+
+main .rihgt .Tranform-Rotate:hover{
+    background-color: rgb(71, 243, 28);
+    transform: rotate(20deg);
+    filter: drop-shadow(10px 10px 4px rgb(86, 86, 80));
+
+
+}
+
+main .rihgt .Tranform-Skew{
+    width: 150px;
+    height: 70px;
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: 7rem;
+    background-color: rgb(28, 220, 191);
+    filter: drop-shadow(2px 1px 1px rgb(60, 60, 37));
+
+
+}
+
+main .rihgt .Tranform-Skew:hover{
+    background-color: rgb(23, 234, 206);
+    transform: skewY(20deg);
+    filter: drop-shadow(10px 10px 4px rgb(86, 86, 80));
+
+
+}
+
+main .rihgt .Tranform-Scale{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(234, 0, 98);
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: 7rem;
+    filter: drop-shadow(2px 1px 1px rgb(60, 60, 37));
+
+}
+
+main .rihgt .Tranform-Scale:hover{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(234, 28, 83);
+
+    transform: scale(1.5);
+    filter: drop-shadow(10px 10px 4px rgb(10, 10, 5));
+
+}
+main .rihgt h3{
+    color: rgb(22, 19, 14);
+    font-size: 14px;
+    text-align: center;
+
+}
+
+
+@media (max-width: 600px) {
+    main{
+        width: 100%;
+    }
+    
+
+    .Text{
+        font-family: monospace;
+        text-shadow: 2px 2px 7px rgb(176, 168, 168);
+        color: rgb(218, 0, 0);
+        font-size: 13px;
+    }
+
+
+}
+
